@@ -1,0 +1,109 @@
+:root {
+  background: white;
+}
+* {
+  color: black;
+}
+h1 {
+  color: blue;
+}
+.green {
+  color: green;
+}
+#blue {
+  color: blue;
+}
+.box p {
+  color: red;
+}
+.box div {
+  color: green;
+}
+.brown {
+  background: brown;
+  color: white;
+}
+ul > li {
+  background: red;
+}
+button + span {
+  background: red;
+}
+.susid ~ p {
+  background: blue;
+  color: white;
+}
+.salo,
+#bread {
+  background: orange;
+}
+.first-task li:first-child {
+  color: white;
+}
+.second-task ul:first-child li:first-child {
+  color: orange;
+}
+.third-task ul:last-child li:first-child {
+  background: orange;
+}
+.four-task li:last-child {
+  background: orange;
+}
+.five-task ul:last-child li:last-child {
+  color: white;
+}
+.only-child-task div:only-child {
+  color: red;
+}
+.seven-task p:first-of-type {
+  background: red;
+}
+.eight-task span:last-of-type {
+  background: red;
+}
+.text-wrapper p:only-of-type {
+  background: orange;
+}
+.lesson-three-task-one a[href] {
+  color: white;
+}
+.lesson-three-task-two li[value] {
+  color: orange;
+}
+.lesson-three-task-three li[value='3'] {
+  background: red;
+}
+.lesson-three-task-four [class~='primary'] {
+  background: blue;
+}
+.lesson-three-task-five [class|='secondary'] {
+  background: red;
+}
+.lesson-three-task-six [class^='b'] {
+  color: green;
+  background: white;
+}
+.lesson-three-task-seven [class*='on'] {
+  color: green;
+  background: white;
+}
+.lesson-three-task-eight [class$='s'] {
+  color: blue;
+  background: white;
+}
+.lesson-three-task-nine h2::first-letter {
+  color: red;
+}
+.lesson-three-task-ten p::first-line {
+  background: orange;
+}
+.lesson-three-task-eleven input::placeholder {
+  background: red;
+  color: black;
+}
+.lesson-three-task-twelve li::before {
+  content: '➤';
+}
+.lesson-three-task-thirteen li::after {
+  content: '➤';
+}
